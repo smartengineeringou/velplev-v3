@@ -7,11 +7,11 @@ import LocaleCtaBand from '@/components/LocaleCtaBand'
 import type { Locale, Translations } from '@/lib/translations'
 
 const categoryImages: Record<string, string> = {
-  food: '/images/food-packaging.jpg',
-  bakery: '/images/bakery-packaging.jpg',
-  consumer: '/images/gallery-2.jpg',
+  food: '/images/products/food-packaging.jpg',
+  bakery: '/images/products/confectionery.jpg',
+  consumer: '/images/products/doy-pack.png',
   office: '/images/office-packaging.jpg',
-  printed: '/images/printed-bags.jpg',
+  printed: '/images/products/printing.jpg',
   industrial: '/images/industrial-packaging.jpg',
 }
 

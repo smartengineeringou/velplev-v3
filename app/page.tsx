@@ -20,7 +20,7 @@ const productCategories = [
     title: 'Food Packaging',
     description:
       'Polypropylene and polyethylene bags for direct food contact. Suitable for dry goods, flour, confectionery, and packaged food products.',
-    image: '/images/food-packaging.jpg',
+    image: '/images/products/food-packaging.jpg',
     href: '/products#food',
     tags: ['PP bags', 'PE bags', 'Food-safe'],
   },
@@ -29,7 +29,7 @@ const productCategories = [
     title: 'Bakery & Confectionery',
     description:
       'Transparent and printed bags for bread, pastries, cookies, and sweets. Euro hanger bags, bottom-fold bags, perforated bags, and more.',
-    image: '/images/bakery-packaging.jpg',
+    image: '/images/products/confectionery.jpg',
     href: '/products#bakery',
     tags: ['Euro hanger', 'Perforated', 'Bottom fold'],
   },
@@ -38,7 +38,7 @@ const productCategories = [
     title: 'Consumer Goods',
     description:
       'Retail-ready bags for packaged consumer products. Suitable for branded goods, promotional packs, and retail display applications.',
-    image: '/images/gallery-2.jpg',
+    image: '/images/products/doy-pack.png',
     href: '/products#consumer',
     tags: ['Retail', 'Branded', 'Promotional'],
   },
@@ -56,7 +56,7 @@ const productCategories = [
     title: 'Branded / Printed Bags',
     description:
       'Custom printed bags with logos and branding for retail, promotional, and private label packaging applications.',
-    image: '/images/printed-bags.jpg',
+    image: '/images/products/printing.jpg',
     href: '/products#printed',
     tags: ['Logo print', 'Private label', 'Custom design'],
   },
@@ -196,7 +196,7 @@ export default function HomePage() {
 
               <div className="relative rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
                 <Image
-                  src="/images/hero-packaging.jpg"
+                  src="/images/velplev-hero.jpg"
                   alt="VELPLEV flexible packaging products — polypropylene and polyethylene bags"
                   fill
                   className="object-cover"
@@ -268,13 +268,18 @@ export default function HomePage() {
         {/* Why Velplev */}
         <section className="py-20 px-4 md:px-8 bg-secondary">
           <div className="max-w-7xl mx-auto">
-            <div className="mb-12">
+            <div className="mb-12 max-w-3xl">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-2">
                 Why VELPLEV
               </p>
               <h2 className="text-3xl font-bold text-brand-graphite text-balance">
-                What we bring to your packaging supply
+                Production, experience and a practical approach to every order
               </h2>
+              <p className="mt-4 text-muted-foreground leading-relaxed">
+                VELPLEV has been operating in the packaging market since 1995. A high level of
+                production technology, imported equipment, and the professionalism of our employees
+                allow us to maintain consistent packaging quality.
+              </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {whyVelplev.map((item) => (
@@ -358,7 +363,7 @@ export default function HomePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative rounded-xl overflow-hidden shadow aspect-[4/3] order-2 lg:order-1">
                 <Image
-                  src="/images/printed-bags.jpg"
+                  src="/images/products/printing.jpg"
                   alt="Custom printed packaging bags with brand logos"
                   fill
                   className="object-cover"
@@ -419,10 +424,10 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {[
-                { src: '/images/gallery-1.jpg', alt: 'Transparent polypropylene packaging bags' },
-                { src: '/images/gallery-2.jpg', alt: 'Custom printed branded packaging bags' },
-                { src: '/images/bakery-packaging.jpg', alt: 'Bakery bags for bread and pastries' },
-                { src: '/images/about-factory.jpg', alt: 'VELPLEV packaging production facility' },
+                { src: '/images/products/packaging-samples.jpg', alt: 'VELPLEV polypropylene bag samples' },
+                { src: '/images/products/confectionery.jpg', alt: 'Colourful confectionery packaging' },
+                { src: '/images/products/doy-pack.png', alt: 'Stand-up DOY PACK with VELPLEV logo' },
+                { src: '/images/products/food-packaging.jpg', alt: 'Transparent food-grade packaging' },
               ].map((img) => (
                 <div
                   key={img.src}

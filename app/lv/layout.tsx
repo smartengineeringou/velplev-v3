@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       'Polipropilēna un polietilēna maisi pārtikai, maiznīcām, mazumtirdzniecībai un rūpniecībai. Pielāgoti izmēri un druka. B2B pasūtījumi.',
     images: [
       {
-        url: '/api/og?locale=lv',
+        url: 'https://velplev.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'VELPLEV — Elastīgā iepakojuma ražotājs Latvijā',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: 'VELPLEV — Elastīgā iepakojuma ražotājs Latvijā',
     description:
       'Polipropilēna un polietilēna maisi pārtikai, maiznīcām, mazumtirdzniecībai un rūpniecībai. Pielāgoti izmēri un druka. B2B pasūtījumi.',
-    images: ['/api/og?locale=lv'],
+    images: ['https://velplev.vercel.app/og-image.png'],
   },
 }
 

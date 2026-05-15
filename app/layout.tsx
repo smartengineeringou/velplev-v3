@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       'Polypropylene & polyethylene bags for food, bakery, retail, and industrial use. Custom sizes and print. B2B orders. Riga, Latvia.',
     images: [
       {
-        url: '/api/og?locale=en',
+        url: 'https://velplev.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'VELPLEV — Flexible Packaging Manufacturer',
@@ -33,8 +33,32 @@ export const metadata: Metadata = {
     title: 'VELPLEV — Flexible Packaging Manufacturer',
     description:
       'Polypropylene & polyethylene bags for food, bakery, retail, and industrial use. Custom sizes and print. B2B orders. Riga, Latvia.',
-    images: ['/api/og?locale=en'],
+    images: ['https://velplev.vercel.app/og-image.png'],
   },
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://velplev-v3.vercel.app/#organization',
+  name: 'SIA VELPLEV',
+  url: 'https://velplev-v3.vercel.app/',
+  logo: 'https://velplev-v3.vercel.app/images/velplev-logo.svg',
+  image: 'https://velplev.vercel.app/og-image.png',
+  description:
+    'Pārtikas un nepārtikas iepakojuma ražošana no BOPP, CPP, LDPE, HDPE, PA/PE, PET/PE, Mono PP, papīra un folijas.',
+  foundingDate: '1995',
+  telephone: ['+37167614566', '+37126953255', '+37129574883'],
+  email: 'velplev@inbox.lv',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'K. Ulmaņa gatve 2',
+    addressLocality: 'Rīga',
+    postalCode: 'LV-1004',
+    addressCountry: 'LV',
+  },
+  areaServed: 'Latvia',
+  priceRange: '$$',
 }
 
 export default function RootLayout({
@@ -45,6 +69,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-background">
       <body className={`${inter.className} font-sans antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
       </body>
     </html>

@@ -16,11 +16,11 @@ import LocaleCtaBand from '@/components/LocaleCtaBand'
 import type { Locale, Translations } from '@/lib/translations'
 
 const categoryImages: Record<string, string> = {
-  food: '/images/food-packaging.jpg',
-  bakery: '/images/bakery-packaging.jpg',
-  consumer: '/images/gallery-2.jpg',
+  food: '/images/products/food-packaging.jpg',
+  bakery: '/images/products/confectionery.jpg',
+  consumer: '/images/products/doy-pack.png',
   office: '/images/office-packaging.jpg',
-  printed: '/images/printed-bags.jpg',
+  printed: '/images/products/printing.jpg',
   industrial: '/images/industrial-packaging.jpg',
 }
 
@@ -78,7 +78,7 @@ export default function HomePageContent({ locale, t }: Props) {
               </div>
               <div className="relative rounded-xl overflow-hidden shadow-lg aspect-[4/3]">
                 <Image
-                  src="/images/hero-packaging.jpg"
+                  src="/images/velplev-hero.jpg"
                   alt="VELPLEV flexible packaging products"
                   fill
                   className="object-cover"
@@ -146,13 +146,14 @@ export default function HomePageContent({ locale, t }: Props) {
         {/* Why Velplev */}
         <section className="py-20 px-4 md:px-8 bg-secondary">
           <div className="max-w-7xl mx-auto">
-            <div className="mb-12">
+            <div className="mb-12 max-w-3xl">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary mb-2">
                 {h.whyKicker}
               </p>
               <h2 className="text-3xl font-bold text-brand-graphite text-balance">
                 {h.whyHeading}
               </h2>
+              <p className="mt-4 text-muted-foreground leading-relaxed">{h.whyBody}</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {h.whyItems.map((item, i) => {
@@ -239,7 +240,7 @@ export default function HomePageContent({ locale, t }: Props) {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative rounded-xl overflow-hidden shadow aspect-[4/3] order-2 lg:order-1">
                 <Image
-                  src="/images/printed-bags.jpg"
+                  src="/images/products/printing.jpg"
                   alt="Custom printed packaging bags"
                   fill
                   className="object-cover"
@@ -289,10 +290,10 @@ export default function HomePageContent({ locale, t }: Props) {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {[
-                { src: '/images/gallery-1.jpg', alt: 'Transparent polypropylene packaging bags' },
-                { src: '/images/gallery-2.jpg', alt: 'Custom printed branded packaging bags' },
-                { src: '/images/bakery-packaging.jpg', alt: 'Bakery bags' },
-                { src: '/images/about-factory.jpg', alt: 'VELPLEV production facility' },
+                { src: '/images/products/packaging-samples.jpg', alt: 'VELPLEV polypropylene bag samples' },
+                { src: '/images/products/confectionery.jpg', alt: 'Colourful confectionery packaging' },
+                { src: '/images/products/doy-pack.png', alt: 'Stand-up DOY PACK with VELPLEV logo' },
+                { src: '/images/products/food-packaging.jpg', alt: 'Transparent food-grade packaging' },
               ].map((img) => (
                 <div
                   key={img.src}

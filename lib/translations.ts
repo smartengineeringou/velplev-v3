@@ -67,6 +67,7 @@ export interface HomeTranslations {
   viewDetails: string
   whyKicker: string
   whyHeading: string
+  whyBody: string
   printingKicker: string
   printingHeading: string
   printingBody: string
@@ -301,7 +302,9 @@ const en: Translations = {
       'We manufacture packaging across a range of formats and applications. Select a category to learn more.',
     viewDetails: 'View details',
     whyKicker: 'Why VELPLEV',
-    whyHeading: 'What we bring to your packaging supply',
+    whyHeading: 'Production, experience and a practical approach to every order',
+    whyBody:
+      'VELPLEV has been operating in the packaging market since 1995. A high level of production technology, imported equipment, and the professionalism of our employees allow us to maintain consistent packaging quality.',
     printingKicker: 'Custom Printing',
     printingHeading: 'Printed packaging with your brand',
     printingBody:
@@ -722,25 +725,27 @@ const lv: Translations = {
     contactSales: 'Sazināties ar pārdošanas nodaļu',
   },
   home: {
-    heroKicker: 'Latvijas iepakojuma ražotājs',
-    heroHeading: 'Elastīgais iepakojums pārtikai un rūpniecībai',
+    heroKicker: 'Iepakojuma ražošana Rīgā kopš 1995. gada',
+    heroHeading: 'Iepakojums, kas aizsargā produktu un palīdz to pārdot',
     heroBody:
-      'Mēs ražojam polipropilēna un polietilēna iepakojuma maisus pārtikai, mazumtirdzniecībai, rūpniecībai un zīmola lietojumiem — tostarp drukātus un pēc pasūtījuma izgatavotus maisus pēc jūsu specifikācijas.',
-    requestQuote: 'Pieprasīt piedāvājumu',
-    exploreProducts: 'Aplūkot produktus',
+      'Ražojam pārtikas un nepārtikas iepakojumu no BOPP, CPP, LDPE, HDPE, PA/PE, PET/PE, Mono PP, papīra un folijas.',
+    requestQuote: 'Saņemt piedāvājumu',
+    exploreProducts: 'Apskatīt izstrādājumus',
     trustBullets: [
-      'Pielāgota ražošana pēc specifikācijas',
-      'Drukāts un zīmola iepakojums',
-      'Pārtikas un rūpnieciskās lietojumprogrammas',
-      'Ātra atbilde uz pieprasījumiem',
+      '30+ gadu pieredze iepakojuma tirgū',
+      '15+ polipropilēna iepakojuma veidi',
+      'BOPP / CPP / LDPE — plašs materiālu klāsts',
+      'DOY PACK — zip, vakuuma un drukātas pakas',
     ],
-    productRangeKicker: 'Produktu klāsts',
-    productRangeHeading: 'Iepakojuma risinājumi pēc lietojuma',
+    productRangeKicker: 'Ko ražojam',
+    productRangeHeading: 'Iepakojuma risinājumi ražotājiem un tirgotājiem',
     productRangeBody:
-      'Mēs ražojam iepakojumu dažādos formātos un lietojumiem. Izvēlieties kategoriju, lai uzzinātu vairāk.',
+      'Izgatavojam gan vienkāršu fasēšanas iepakojumu, gan risinājumus ar zip aizdari, euro slotu, līmlenti, apdruku, vakuuma īpašībām un laminētiem materiāliem.',
     viewDetails: 'Skatīt detaļas',
     whyKicker: 'Kāpēc VELPLEV',
-    whyHeading: 'Ko mēs piedāvājam jūsu iepakojuma piegādei',
+    whyHeading: 'Ražošana, pieredze un praktiska pieeja katram pasūtījumam',
+    whyBody:
+      'VELPLEV darbojas iepakojuma tirgū kopš 1995. gada. Augsts ražošanas tehnoloģiju līmenis, importētas iekārtas un darbinieku profesionalitāte ļauj sasniegt stabilu iepakojuma kvalitāti.',
     printingKicker: 'Pielāgota druka',
     printingHeading: 'Drukāts iepakojums ar jūsu zīmolu',
     printingBody:
@@ -1077,7 +1082,9 @@ const ru: Translations = {
     productRangeBody: 'Мы производим упаковку в различных форматах и для различных применений. Выберите категорию, чтобы узнать больше.',
     viewDetails: 'Подробнее',
     whyKicker: 'Почему VELPLEV',
-    whyHeading: 'Что мы предлагаем в области поставки упаковки',
+    whyHeading: 'Производство, опыт и практический подход к каждому заказу',
+    whyBody:
+      'VELPLEV работает на рынке упаковки с 1995 года. Высокий уровень производственных технологий, импортное оборудование и профессионализм сотрудников позволяют поддерживать стабильное качество упаковки.',
     printingKicker: 'Печать на заказ',
     printingHeading: 'Печатная упаковка с вашим брендом',
     printingBody: 'Мы производим индивидуально напечатанные пакеты с вашим логотипом, дизайном бренда или информацией о продукте. Подходит для розничной упаковки, рекламных пакетов и производственных серий под частной маркой.',

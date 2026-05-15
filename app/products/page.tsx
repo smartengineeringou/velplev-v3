@@ -9,7 +9,7 @@ const categories = [
   {
     id: 'food',
     title: 'Food Packaging',
-    image: '/images/food-packaging.jpg',
+    image: '/images/products/food-packaging.jpg',
     description:
       'Polypropylene (PP) and polyethylene (PE) bags suitable for direct food contact. Designed for dry food products, bulk goods, flour, sugar, confectionery, and other packaged food items.',
     applications: ['Flour and dry goods', 'Confectionery and sweets', 'Packaged food products', 'Retail food bags'],
@@ -18,7 +18,7 @@ const categories = [
   {
     id: 'bakery',
     title: 'Bakery & Confectionery',
-    image: '/images/bakery-packaging.jpg',
+    image: '/images/products/confectionery.jpg',
     description:
       'Transparent and semi-transparent bags for fresh and packaged bakery products. Available with perforation, bottom fold, euro hanger, and adhesive tape closure options.',
     applications: ['Bread and bread rolls', 'Croissants and pastries', 'Cookies and biscuits', 'Chocolate and sweets'],
@@ -27,7 +27,7 @@ const categories = [
   {
     id: 'consumer',
     title: 'Consumer Goods',
-    image: '/images/gallery-2.jpg',
+    image: '/images/products/doy-pack.png',
     description:
       'Retail-ready packaging bags for consumer products. Available plain or with custom printing. Suitable for hanging display, shelf packaging, and branded retail presentation.',
     applications: ['Retail products', 'Branded consumer goods', 'Promotional packs', 'Gift packaging'],
@@ -45,7 +45,7 @@ const categories = [
   {
     id: 'printed',
     title: 'Branded / Printed Bags',
-    image: '/images/printed-bags.jpg',
+    image: '/images/products/printing.jpg',
     description:
       'Custom printed flexible packaging bags with logo, product, or brand design. Printed on PP or PE material. Suitable for retail, promotional, and private label production.',
     applications: ['Retail branded packaging', 'Promotional bags', 'Private label production', 'Event and marketing packaging'],
