@@ -114,6 +114,7 @@ export default function ManufacturingPage() {
                   src="/images/about-factory.jpg"
                   alt="VELPLEV packaging manufacturing facility"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                   priority
                 />
@@ -219,6 +220,7 @@ export default function ManufacturingPage() {
                   src="/images/gallery-1.jpg"
                   alt="Various bag formats and configurations"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
@@ -245,6 +247,7 @@ export default function ManufacturingPage() {
                     src={img.src}
                     alt={img.alt}
                     fill
+                    sizes="(min-width: 768px) 33vw, 50vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>

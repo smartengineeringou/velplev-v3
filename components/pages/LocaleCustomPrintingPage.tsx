@@ -60,7 +60,7 @@ export default function LocaleCustomPrintingPage({ locale, t }: Props) {
               </div>
             </div>
             <div className="relative rounded-xl overflow-hidden shadow aspect-[4/3]">
-              <Image src="/images/printed-bags.jpg" alt="Custom printed packaging bags" fill className="object-cover" />
+              <Image src="/images/printed-bags.jpg" alt="Custom printed packaging bags" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
             </div>
           </div>
         </section>
