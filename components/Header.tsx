@@ -147,7 +147,26 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-3 border-t border-border mt-2">
+            <div className="pt-3 border-t border-border mt-2 flex items-center justify-center gap-3 text-xs">
+              <span className="text-primary font-semibold">EN</span>
+              <span className="text-muted-foreground">/</span>
+              <Link
+                href="/lv"
+                className="text-muted-foreground hover:text-primary transition-colors font-medium"
+                onClick={() => setMobileOpen(false)}
+              >
+                LV
+              </Link>
+              <span className="text-muted-foreground">/</span>
+              <Link
+                href="/ru"
+                className="text-muted-foreground hover:text-primary transition-colors font-medium"
+                onClick={() => setMobileOpen(false)}
+              >
+                RU
+              </Link>
+            </div>
+            <div className="pt-3">
               <Link
                 href="/contact"
                 className="block bg-primary text-primary-foreground px-4 py-2.5 rounded text-sm font-semibold text-center hover:bg-brand-teal-dark transition-colors"
