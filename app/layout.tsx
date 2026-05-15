@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       'Polypropylene & polyethylene bags for food, bakery, retail, and industrial use. Custom sizes and print. B2B orders. Riga, Latvia.',
     images: [
       {
-        url: 'https://velplev.vercel.app/og-image.png',
+        url: 'https://velplev.vercel.app/og-image-hero-lv.png',
         width: 1200,
         height: 630,
         alt: 'VELPLEV — Flexible Packaging Manufacturer',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: 'VELPLEV — Flexible Packaging Manufacturer',
     description:
       'Polypropylene & polyethylene bags for food, bakery, retail, and industrial use. Custom sizes and print. B2B orders. Riga, Latvia.',
-    images: ['https://velplev.vercel.app/og-image.png'],
+    images: ['https://velplev.vercel.app/og-image-hero-lv.png'],
   },
 }
 
@@ -44,7 +44,7 @@ const jsonLd = {
   name: 'SIA VELPLEV',
   url: 'https://velplev-v3.vercel.app/',
   logo: 'https://velplev-v3.vercel.app/images/velplev-logo.svg',
-  image: 'https://velplev.vercel.app/og-image.png',
+  image: 'https://velplev.vercel.app/og-image-hero-lv.png',
   description:
     'Pārtikas un nepārtikas iepakojuma ražošana no BOPP, CPP, LDPE, HDPE, PA/PE, PET/PE, Mono PP, papīra un folijas.',
   foundingDate: '1995',

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       'Пакеты из полипропилена и полиэтилена для пищевой, розничной и промышленной сферы. Нестандартные размеры, печать на заказ, заказы B2B.',
     images: [
       {
-        url: 'https://velplev.vercel.app/og-image.png',
+        url: 'https://velplev.vercel.app/og-image-hero-lv.png',
         width: 1200,
         height: 630,
         alt: 'VELPLEV — Производитель гибкой упаковки в Латвии',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: 'VELPLEV — Производитель гибкой упаковки в Латвии',
     description:
       'Пакеты из полипропилена и полиэтилена для пищевой, розничной и промышленной сферы. Нестандартные размеры, печать на заказ, заказы B2B.',
-    images: ['https://velplev.vercel.app/og-image.png'],
+    images: ['https://velplev.vercel.app/og-image-hero-lv.png'],
   },
 }
 
