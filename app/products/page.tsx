@@ -111,7 +111,13 @@ export default function ProductsPage() {
                   </div>
                 ) : (
                   <div className="relative rounded-xl overflow-hidden aspect-[4/3] shadow-sm bg-secondary">
-                    <Image src={cat.image} alt={cat.title} fill className="object-cover" />
+                    <Image
+                      src={cat.image}
+                      alt={cat.title}
+                      fill
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="object-cover"
+                    />
                   </div>
                 )}
                 <div>

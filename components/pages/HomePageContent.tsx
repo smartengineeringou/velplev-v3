@@ -81,6 +81,7 @@ export default function HomePageContent({ locale, t }: Props) {
                   src="/images/velplev-hero.jpg"
                   alt="VELPLEV flexible packaging products"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                   priority
                 />
@@ -113,6 +114,7 @@ export default function HomePageContent({ locale, t }: Props) {
                       src={categoryImages[cat.id]}
                       alt={cat.title}
                       fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -243,6 +245,7 @@ export default function HomePageContent({ locale, t }: Props) {
                   src="/images/products/printing.jpg"
                   alt="Custom printed packaging bags"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
@@ -303,6 +306,7 @@ export default function HomePageContent({ locale, t }: Props) {
                     src={img.src}
                     alt={img.alt}
                     fill
+                    sizes="(min-width: 768px) 25vw, 50vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>

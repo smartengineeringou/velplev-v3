@@ -199,6 +199,7 @@ export default function HomePage() {
                   src="/images/velplev-hero.jpg"
                   alt="VELPLEV flexible packaging products — polypropylene and polyethylene bags"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                   priority
                 />
@@ -235,6 +236,7 @@ export default function HomePage() {
                       src={cat.image}
                       alt={cat.title}
                       fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -366,6 +368,7 @@ export default function HomePage() {
                   src="/images/products/printing.jpg"
                   alt="Custom printed packaging bags with brand logos"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
@@ -437,6 +440,7 @@ export default function HomePage() {
                     src={img.src}
                     alt={img.alt}
                     fill
+                    sizes="(min-width: 768px) 25vw, 50vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>

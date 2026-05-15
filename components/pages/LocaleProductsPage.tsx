@@ -48,7 +48,13 @@ export default function LocaleProductsPage({ locale, t }: Props) {
                   </div>
                 ) : (
                   <div className={`relative rounded-xl overflow-hidden shadow aspect-[4/3] ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
-                    <Image src={categoryImages[cat.id]} alt={cat.title} fill className="object-cover" />
+                    <Image
+                      src={categoryImages[cat.id]}
+                      alt={cat.title}
+                      fill
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="object-cover"
+                    />
                   </div>
                 )}
                 <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
