@@ -37,7 +37,7 @@ export default function LocaleManufacturingPage({ locale, t }: Props) {
               </ul>
             </div>
             <div className="relative rounded-xl overflow-hidden shadow aspect-[4/3]">
-              <Image src="/images/about-factory.jpg" alt="VELPLEV manufacturing facility" fill className="object-cover" />
+              <Image src="/images/about-factory.jpg" alt="VELPLEV manufacturing facility" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
             </div>
           </div>
         </section>
@@ -113,7 +113,7 @@ export default function LocaleManufacturingPage({ locale, t }: Props) {
                 { src: '/images/hero-packaging.jpg', alt: 'Packaging range' },
               ].map((img) => (
                 <div key={img.src} className="relative aspect-square rounded-lg overflow-hidden bg-white">
-                  <Image src={img.src} alt={img.alt} fill className="object-cover hover:scale-105 transition-transform duration-500" />
+                  <Image src={img.src} alt={img.alt} fill sizes="(min-width: 768px) 33vw, 50vw" className="object-cover hover:scale-105 transition-transform duration-500" />
                 </div>
               ))}
             </div>
